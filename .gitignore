@@ -50,4 +50,3 @@ _*.test.php
 /workspace/cache/*
 /workspace/logs/*
 /workspace/temp/*
-/workspace/tests/*
