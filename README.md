@@ -24,7 +24,7 @@ To get started with the Bootgly CLI template repository on GitHub, follow the st
 1. Navigate to the main page of the Bootgly CLI template repository on GitHub: Bootgly CLI Template Repository.
 2. Click on the "Use this template" button located near the top-right corner of the repository page:
 
-| ![Click on the "Use this template"](https://github.com/bootgly/bootgly.cli/raw/main/Bootgly.CLI-template.png) |
+| ![Click on the "Use this template"](https://github.com/bootgly/.github/raw/main/screenshots/bootgly-php-framework/Bootgly.CLI-template.png) |
 
 4. On the "Create a new repository" page, provide a name for your new repository.
 5. Optionally, add a description and choose the visibility and permissions for your repository.
