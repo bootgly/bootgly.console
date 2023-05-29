@@ -13,7 +13,7 @@
 
 You should use this repository to start building your CLI workables.
 
-This repository serves as a template (starter kit) for creating CLI applications using the Bootgly CLI framework, which is a part of the Bootgly PHP Framework.
+This repository serves as a template (starter kit) for creating CLI applications using the Bootgly CLI, which is a part of the [Bootgly PHP Framework][BOOTGLY_PHP_FRAMEWORK].
 
 ## 🧩 Templating
 
@@ -95,11 +95,20 @@ composer install
 
 Once you have initialized your Bootgly CLI template repository either using GitHub or Composer, you can start developing your CLI application. Here are a few recommended steps to get started:
 
-1. Review the documentation available in the repository to understand the features and capabilities of the Bootgly CLI framework.
-2. Customize the template code to fit your application's requirements. Modify the command classes, add new commands, and update the application configuration as needed.
-3. Test your CLI application locally to ensure it functions as expected. You can use the provided testing tools and utilities included in the Bootgly CLI framework.
+1. Review the [Bootgly documentation][BOOTGLY_DOCS] to understand the features and capabilities of the Bootgly CLI.
+2. Check `projects\*.constructor.php` files. Add new commands, instance CLI components, and update the application configuration as needed.
+3. Test your CLI application locally to ensure it functions as expected. You can use the provided testing tools and utilities included in the Bootgly CLI.
 4. Add any additional dependencies or libraries your application requires to the composer.json file and install them using Composer.
 5. Document your CLI application by updating the README file and providing instructions on how to use and configure your application.
 6. Once you are ready, consider publishing your CLI application to Packagist to make it available to others. Follow the Packagist documentation for guidelines on publishing your project.
 
-That's it! You now have a solid foundation for building your CLI application using the Bootgly CLI framework. Happy coding!
+That's it! You now have a solid foundation for building your CLI application using the Bootgly CLI. Happy coding!
+
+## 📃 License
+
+The Bootgly PHP Framework is open-sourced software licensed under the [MIT license][MIT_LICENSE].
+
+<!-- Links -->
+[BOOTGLY_DOCS]: https://docs.bootlgy.com
+[BOOTGLY_PHP_FRAMEWORK]: https://github.com/bootgly/bootgly-php-framework
+[MIT_LICENSE]: https://opensource.org/licenses/MIT
