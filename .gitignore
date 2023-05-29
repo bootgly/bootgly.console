@@ -17,6 +17,7 @@ composer.lock
 ## Root folders
 # Boot
 @/*
+@imports
 !@/autoload.php
 
 !@/__php__/
