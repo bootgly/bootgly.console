@@ -21,7 +21,7 @@ This repository serves as a template (starter kit) for creating CLI applications
 
 To get started with the Bootgly CLI template repository on GitHub, follow the steps below:
 
-1. Navigate to the main page of the Bootgly CLI template repository on GitHub: Bootgly CLI Template Repository.
+1. Navigate to the main page of the Bootgly CLI template repository on GitHub.
 2. Click on the "Use this template" button located near the top-right corner of the repository page:
 
 | ![Click on the "Use this template"](https://github.com/bootgly/.github/raw/main/screenshots/bootgly-php-framework/Bootgly.CLI-template.png) |
@@ -49,14 +49,10 @@ To create a new project using the Bootgly CLI template and Composer's create-pro
 ```
 composer create-project bootgly/bootgly.cli my-bootgly-cli-app
 ```
+
 Replace `my-bootgly-cli-app` with the desired name of your project directory.
 
 3. Composer will download the Bootgly CLI template and its dependencies, and create the project structure for you.
-4. Once the installation is complete, navigate to your project directory:
-
-```
-cd my-bootgly-cli-app
-```
 
 #### Option 2 - package init
 

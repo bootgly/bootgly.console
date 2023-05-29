@@ -26,6 +26,5 @@
       "php": "^8.2",
       "bootgly/bootgly": "dev-main"
    },
-
    "minimum-stability": "dev"
 }
