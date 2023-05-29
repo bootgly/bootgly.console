@@ -110,5 +110,5 @@ The Bootgly PHP Framework is open-sourced software licensed under the [MIT licen
 
 <!-- Links -->
 [BOOTGLY_DOCS]: https://docs.bootgly.com
-[BOOTGLY_PHP_FRAMEWORK]: https://github.com/bootgly/bootgly-php-framework
+[BOOTGLY_PHP_FRAMEWORK]: https://github.com/bootgly/bootgly
 [MIT_LICENSE]: https://opensource.org/licenses/MIT
