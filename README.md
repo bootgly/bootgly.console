@@ -17,8 +17,6 @@ This repository serves as a template (starter kit) for creating CLI applications
 
 ## 🧩 Templating
 
-### Using Github / Git
-
 To get started with the Bootgly CLI template repository on GitHub, follow the steps below:
 
 1. Navigate to the main page of the Bootgly CLI template repository on GitHub.
