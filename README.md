@@ -52,8 +52,9 @@ composer create-project bootgly/bootgly.cli my-bootgly-cli-app
 
 Replace `my-bootgly-cli-app` with the desired name of your project directory.
 
-3. Composer will download the Bootgly CLI template and its dependencies, and create the project structure for you.
+**Composer will download the Bootgly CLI template and its dependencies, and create the project structure for you.**
 
+<!--
 #### Option 2 - package init
 
 1. Open your terminal or command prompt.
@@ -86,7 +87,7 @@ composer init
 ```
 composer install
 ```
-
+-->
 ## 🔜 Next Steps
 
 Once you have initialized your Bootgly CLI template repository either using GitHub or Composer, you can start developing your CLI application. Here are a few recommended steps to get started:
