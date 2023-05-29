@@ -109,6 +109,6 @@ That's it! You now have a solid foundation for building your CLI application usi
 The Bootgly PHP Framework is open-sourced software licensed under the [MIT license][MIT_LICENSE].
 
 <!-- Links -->
-[BOOTGLY_DOCS]: https://docs.bootlgy.com
+[BOOTGLY_DOCS]: https://docs.bootgly.com
 [BOOTGLY_PHP_FRAMEWORK]: https://github.com/bootgly/bootgly-php-framework
 [MIT_LICENSE]: https://opensource.org/licenses/MIT
