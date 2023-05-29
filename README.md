@@ -1,12 +1,21 @@
-# Bootgly.CLI template
-
-Bootgly CLI Workables template
+<p align="center">
+  <img src="https://github.com/bootgly/.github/raw/main/favicon-temp1-128.png" alt="bootgly-logo" width="120px" height="120px"/>
+</p>
+<h1 align="center">Bootgly.CLI template</h1>
+<p align="center">
+  <i>Bootgly CLI Workables template</i>
+</p>
+<p align="center">
+  <a href="https://packagist.org/packages/bootgly/bootgly">
+    <img alt="Bootgly License" src="https://img.shields.io/github/license/bootgly/bootgly"/>
+  </a>
+</p>
 
 You should use this repository to start building your CLI workables.
 
 This repository serves as a template (starter kit) for creating CLI applications using the Bootgly CLI framework, which is a part of the Bootgly PHP Framework.
 
-## Templating
+## 🧩 Templating
 
 ### Using Github / Git
 
@@ -49,7 +58,7 @@ Replace `my-bootgly-cli-app` with the desired name of your project directory.
 cd my-bootgly-cli-app
 ```
 
-#### Option 2 - package construction
+#### Option 2 - package init
 
 1. Open your terminal or command prompt.
 2. Create a new directory for your project and navigate to it:
@@ -82,7 +91,7 @@ composer init
 composer install
 ```
 
-## Next Steps
+## 🔜 Next Steps
 
 Once you have initialized your Bootgly CLI template repository either using GitHub or Composer, you can start developing your CLI application. Here are a few recommended steps to get started:
 
