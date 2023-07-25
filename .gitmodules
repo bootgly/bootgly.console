@@ -1,0 +1,3 @@
+[submodule "Console"]
+	path = Console
+	url = https://github.com/bootgly/bootgly-console
