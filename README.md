@@ -17,7 +17,7 @@ This repository serves as a template (starter kit) for creating CLI applications
 
 ## 🧩 Templating
 
-### 1️⃣ Using GitU
+### 1️⃣ Using Git
 
 #### Git init from template
 
