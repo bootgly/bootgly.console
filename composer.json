@@ -1,7 +1,7 @@
 {
-   "name": "bootgly/bootgly.cli",
+   "name": "bootgly/bootgly.console",
    "type": "project",
-   "description": "The Bootgly CLI template.",
+   "description": "The Bootgly Console template.",
    "license": "MIT",
    "keywords": [
       "bootgly",
