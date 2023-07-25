@@ -1,9 +1,9 @@
 <p align="center">
   <img src="https://github.com/bootgly/.github/raw/main/favicon-temp1-128.png" alt="bootgly-logo" width="120px" height="120px"/>
 </p>
-<h1 align="center">Bootgly.CLI template</h1>
+<h1 align="center">Bootgly.Console template</h1>
 <p align="center">
-  <i>Bootgly CLI Workables template</i>
+  <i>Bootgly Console Workables template</i>
 </p>
 <p align="center">
   <a href="https://packagist.org/packages/bootgly/bootgly">
@@ -17,33 +17,33 @@ This repository serves as a template (starter kit) for creating CLI applications
 
 ## 🧩 Templating
 
-To get started with the Bootgly CLI template repository on GitHub, follow the steps below:
+To get started with the Bootgly Console template repository on GitHub, follow the steps below:
 
-1. Navigate to the main page of the Bootgly CLI template repository on GitHub.
+1. Navigate to the main page of the Bootgly Console template repository on GitHub.
 2. Click on the "Use this template" button located near the top-right corner of the repository page:
 ![Click on the "Use this template"](https://github.com/bootgly/.github/raw/main/screenshots/bootgly-php-framework/Bootgly.CLI-template.png)
 3. On the "Create a new repository" page, provide a name for your new repository.
 4. Optionally, add a description and choose the visibility and permissions for your repository.
-5. Click on the "Create repository from template" button to create your new repository based on the Bootgly CLI template.
+5. Click on the "Create repository from template" button to create your new repository based on the Bootgly Console template.
 
 ### Using Composer
 
-If you prefer using Composer to manage your PHP dependencies, follow the steps below to initialize the Bootgly CLI template repository:
+If you prefer using Composer to manage your PHP dependencies, follow the steps below to initialize the Bootgly Console template repository:
 
 #### Option 1 - create-project command
 
-To create a new project using the Bootgly CLI template and Composer's create-project command, follow these steps:
+To create a new project using the Bootgly Console template and Composer's create-project command, follow these steps:
 
 1. Open your terminal or command prompt.
-2. Run the following command to create a new project based on the Bootgly CLI template:
+2. Run the following command to create a new project based on the Bootgly Console template:
 
 ```
-composer create-project bootgly/bootgly.cli my-bootgly-cli-app
+composer create-project bootgly/bootgly.console my-bootgly-console-app
 ```
 
-Replace `my-bootgly-cli-app` with the desired name of your project directory.
+Replace `my-bootgly-console-app` with the desired name of your project directory.
 
-**Composer will download the Bootgly CLI template and its dependencies, and create the project structure for you.**
+**Composer will download the Bootgly Console template and its dependencies, and create the project structure for you.**
 
 <!--
 #### Option 2 - package init
@@ -52,8 +52,8 @@ Replace `my-bootgly-cli-app` with the desired name of your project directory.
 2. Create a new directory for your project and navigate to it:
 
 ```
-mkdir my-bootgly-cli-app
-cd my-bootgly-cli-app
+mkdir my-bootgly-console-app
+cd my-bootgly-console-app
 ```
 
 3. Initialize a new Composer project within your directory:
@@ -68,12 +68,12 @@ composer init
 
 ```json
 "require": {
-   "bootgly/bootgly.cli": "1.0.0"
+   "bootgly/bootgly.console": "1.0.0"
 }
 ```
 
 7. Save the changes to the composer.json file.
-8. Run the following command to install the Bootgly CLI template and its dependencies:
+8. Run the following command to install the Bootgly Console template and its dependencies:
 
 ```
 composer install
@@ -81,11 +81,11 @@ composer install
 -->
 ## 🔜 Next Steps
 
-Once you have initialized your Bootgly CLI template repository either using GitHub or Composer, you can start developing your CLI application. Here are a few recommended steps to get started:
+Once you have initialized your Bootgly Console template repository either using GitHub or Composer, you can start developing your CLI application. Here are a few recommended steps to get started:
 
 1. Review the [Bootgly documentation][BOOTGLY_DOCS] to understand the features and capabilities of the Bootgly CLI.
 2. Check `projects\*.constructor.php` files. Add new commands, instance CLI components, and update the application configuration as needed.
-3. Test your CLI application locally to ensure it functions as expected. You can use the provided testing tools and utilities included in the Bootgly CLI.
+3. Test your Console application locally to ensure it functions as expected. You can use the provided testing tools and utilities included in the Bootgly CLI.
 4. Add any additional dependencies or libraries your application requires to the composer.json file and install them using Composer.
 5. Document your CLI application by updating the README file and providing instructions on how to use and configure your application.
 6. Once you are ready, consider publishing your CLI application to Packagist to make it available to others. Follow the Packagist documentation for guidelines on publishing your project.
