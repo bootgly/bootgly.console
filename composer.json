@@ -8,6 +8,7 @@
       "php",
       "framework",
       "cli",
+      "console",
       "template"
    ],
    "authors": [

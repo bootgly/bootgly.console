@@ -17,6 +17,10 @@ This repository serves as a template (starter kit) for creating CLI applications
 
 ## 🧩 Templating
 
+### 1️⃣ Using GitU
+
+#### Git init from template
+
 To get started with the Bootgly Console template repository on GitHub, follow the steps below:
 
 1. Navigate to the main page of the Bootgly Console template repository on GitHub.
@@ -25,25 +29,40 @@ To get started with the Bootgly Console template repository on GitHub, follow th
 3. On the "Create a new repository" page, provide a name for your new repository.
 4. Optionally, add a description and choose the visibility and permissions for your repository.
 5. Click on the "Create repository from template" button to create your new repository based on the Bootgly Console template.
+6. Clone your repository created from the template.
 
-### Using Composer
+#### Initialize and update Submodules
+
+> Git submodules are a useful feature that allows you to include one Git repository inside another. In the context of your Bootgly Console template, we can use submodules to include any bootable repository (`bootgly-*`) in your project. This tutorial will guide you through the process of using Git submodules in your Bootgly Console template project.
+
+1. Open your terminal or command prompt.
+2. Navigate to your cloned Bootgly Console template project directory.
+3. To init the submodules, use the following commands:
+
+```
+git submodule update --init --recursive
+```
+
+### 2️⃣ Using Composer
 
 If you prefer using Composer to manage your PHP dependencies, follow the steps below to initialize the Bootgly Console template repository:
 
-#### Option 1 - create-project command
+<details>
+  <summary><b>Option 1 - create-project command</b></summary>
 
-To create a new project using the Bootgly Console template and Composer's create-project command, follow these steps:
+  To create a new project using the Bootgly Console template and Composer's create-project command, follow these steps:
 
-1. Open your terminal or command prompt.
-2. Run the following command to create a new project based on the Bootgly Console template:
+  1. Open your terminal or command prompt.
+  2. Run the following command to create a new project based on the Bootgly Console template:
 
-```
-composer create-project bootgly/bootgly.console my-bootgly-console-app
-```
+  ```
+  composer create-project bootgly/bootgly.console my-bootgly-console-app
+  ```
 
-Replace `my-bootgly-console-app` with the desired name of your project directory.
+  Replace `my-bootgly-console-app` with the desired name of your project directory.
 
-**Composer will download the Bootgly Console template and its dependencies, and create the project structure for you.**
+  **Composer will download the Bootgly Console template and its dependencies, and create the project structure for you.**
+</details>
 
 <!--
 #### Option 2 - package init
