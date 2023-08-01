@@ -56,10 +56,10 @@ If you prefer using Composer to manage your PHP dependencies, follow the steps b
   2. Run the following command to create a new project based on the Bootgly Console template:
 
   ```
-  composer create-project bootgly/bootgly.console my-bootgly-console-app
+  composer create-project bootgly/bootgly.console bootgly.console
   ```
 
-  Replace `my-bootgly-console-app` with the desired name of your project directory.
+  Replace `bootgly.console` with the desired name of your project directory.
 
   **Composer will download the Bootgly Console template and its dependencies, and create the project structure for you.**
 </details>
