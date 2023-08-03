@@ -103,7 +103,7 @@ composer install
 Once you have initialized your Bootgly Console template repository either using GitHub or Composer, you can start developing your CLI application. Here are a few recommended steps to get started:
 
 1. Review the [Bootgly documentation][BOOTGLY_DOCS] to understand the features and capabilities of the Bootgly CLI.
-2. Check `projects\*.constructor.php` files. Add new commands, instance CLI components, and update the application configuration as needed.
+2. Check constructor files: `projects\Bootgly.php` and `projects\CLI.php`. Add new commands, instance CLI components, and update the application configuration as needed.
 3. Test your Console application locally to ensure it functions as expected. You can use the provided testing tools and utilities included in the Bootgly CLI.
 4. Add any additional dependencies or libraries your application requires to the composer.json file and install them using Composer.
 5. Document your CLI application by updating the README file and providing instructions on how to use and configure your application.
