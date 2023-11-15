@@ -11,9 +11,9 @@
   </a>
 </p>
 
-You should use this repository to start building your CLI workables.
+You should use this repository to start develop your CLI Apps.
 
-This repository serves as a template (starter kit) for creating CLI applications using the Bootgly CLI, which is a part of the [Bootgly PHP Framework][BOOTGLY_PHP_FRAMEWORK].
+This repository serves as a template (starter kit) for you to start developing using the Bootgly Console, which is a part of the [Bootgly PHP Framework][BOOTGLY_PHP_FRAMEWORK].
 
 ## 🧩 Templating
 
