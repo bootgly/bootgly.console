@@ -17,42 +17,16 @@ This repository serves as a template (starter kit) for you to start developing u
 
 ## 🧩 Templating
 
-### 1️⃣ Using Git
-
-#### Git init from template
-
-To get started with the Bootgly Console template repository on GitHub, follow the steps below:
-
-1. Navigate to the main page of the Bootgly Console template repository on GitHub.
-2. Click on the "Use this template" button located near the top-right corner of the repository page:
-![Click on the "Use this template"](https://github.com/bootgly/.github/raw/main/screenshots/bootgly-php-framework/Bootgly.CLI-template.png)
-3. On the "Create a new repository" page, provide a name for your new repository.
-4. Optionally, add a description and choose the visibility and permissions for your repository.
-5. Click on the "Create repository from template" button to create your new repository based on the Bootgly Console template.
-6. Clone your repository created from the template.
-
-#### Initialize and update Submodules
-
-> Git submodules are a useful feature that allows you to include one Git repository inside another. In the context of your Bootgly Console template, we can use submodules to include any bootable repository (`bootgly-*`) in your project. This tutorial will guide you through the process of using Git submodules in your Bootgly Console template project.
-
-1. Open your terminal or command prompt.
-2. Navigate to your cloned Bootgly Console template project directory.
-3. To init the submodules, use the following commands:
-
-```
-git submodule update --init --recursive
-```
-
-### 2️⃣ Using Composer
+### Option 1) Using Composer
 
 If you prefer using Composer to manage your PHP dependencies, follow the steps below to initialize the Bootgly Console template repository:
 
 <details>
-  <summary><b>Option 1: create-project command</b></summary>
+  <summary><b>create-project command</b></summary>
 
   To create a new project using the Bootgly Console template and Composer's create-project command, follow these steps:
 
-  1. Open your terminal or command prompt.
+  1. Open your terminal.
   2. Run the following command to create a new project based on the Bootgly Console template:
 
   ```
@@ -98,24 +72,59 @@ composer init
 composer install
 ```
 -->
+
+### Option 2) Using Git
+
+#### Git init from template
+
+To get started with the Bootgly Console template repository on GitHub, follow the steps below:
+
+1. Navigate to the main page of the Bootgly Console template repository on GitHub.
+2. Click on the "Use this template" button located near the top-right corner of the repository page:
+![Click on the "Use this template"](https://github.com/bootgly/.github/raw/main/screenshots/bootgly-php-framework/Bootgly.CLI-template.png)
+3. On the "Create a new repository" page, provide a name for your new repository.
+4. Optionally, add a description and choose the visibility and permissions for your repository.
+5. Click on the "Create repository from template" button to create your new repository based on the Bootgly Console template.
+6. Clone your repository created from the template.
+
+#### Initialize and update Submodules
+
+> Git submodules are a useful feature that allows you to include one Git repository inside another. In the context of your Bootgly Console template, we can use submodules to include any bootable repository (`bootgly-*`) in your project. This tutorial will guide you through the process of using Git submodules in your Bootgly Console template project.
+
+1. Open your terminal or command prompt.
+2. Navigate to your cloned Bootgly Console template project directory.
+3. To init the submodules, use the following commands:
+
+```
+git submodule update --init --recursive
+```
+
 ## 🔜 Next Steps
 
-Once you have initialized your Bootgly Console template repository either using GitHub or Composer, you can start developing your CLI application. Here are a few recommended steps to get started:
+Once you have initialized your Bootgly Console template repository either using GitHub or Composer, you can start developing with Bootgly Console.
+
+Here are suggestions for next steps:
 
 1. Review the [Bootgly documentation][BOOTGLY_DOCS] to understand the features and capabilities of the Bootgly CLI.
-2. Check constructor files: `projects\Bootgly.php` and `projects\CLI.php`. Add new commands, instance CLI components, and update the application configuration as needed.
-3. Test your Console application locally to ensure it functions as expected. You can use the provided testing tools and utilities included in the Bootgly CLI.
-4. Add any additional dependencies or libraries your application requires to the composer.json file and install them using Composer.
-5. Document your CLI application by updating the README file and providing instructions on how to use and configure your application.
-6. Once you are ready, consider publishing your CLI application to Packagist to make it available to others. Follow the Packagist documentation for guidelines on publishing your project.
+2. Check [boot files][BOOTGLY_DOCS_BOOTSTRAP]: `projects\*.boot.php`.
+3. Test your Console project locally to ensure it functions as expected. You can use the provided testing tools and utilities included in the Bootgly (check `bootgly test` command).
+4. Add any additional dependencies or libraries your application requires to the `composer.json` file and install them using Composer.
+5. Document your CLI project by updating this `README.md` file and providing instructions on how to use and configure your project.
+6. Once you are ready, consider publishing your Console project to Packagist to make it available to others.
 
-That's it! You now have a solid foundation for building your CLI application using the Bootgly CLI. Happy coding!
+That's it! You now have a solid foundation for develop your CLI/Console project using the Bootgly Console.
+
+Happy coding!
 
 ## 📃 License
 
 The Bootgly PHP Framework is open-sourced software licensed under the [MIT license][MIT_LICENSE].
 
+
 <!-- Links -->
 [BOOTGLY_DOCS]: https://docs.bootgly.com
+[BOOTGLY_DOCS_BOOTSTRAP]: https://docs.bootgly.com/manual/Bootgly/concepts/bootstrap-files/overview
+
 [BOOTGLY_PHP_FRAMEWORK]: https://github.com/bootgly/bootgly
+
 [MIT_LICENSE]: https://opensource.org/licenses/MIT
