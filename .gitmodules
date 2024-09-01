@@ -1,6 +1,7 @@
-[submodule "Console"]
-	path = Console
-	url = https://github.com/bootgly/bootgly-console
 [submodule "Bootgly"]
 	path = Bootgly
 	url = https://github.com/bootgly/bootgly
+
+[submodule "Console"]
+	path = Console
+	url = https://github.com/bootgly/bootgly-console
